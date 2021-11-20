@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#Enviar{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    border: 2px solid purple;
+    width: 35%;
+    height: 300px;
+}
+
+#Resultado{
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-bottom: 15px;
+    border: 2px solid blue;
+    width: 35%;
+    height: 300px;
+}
+
+#guardar{
+   margin-top: 15px;
+   margin-left: 150px;
+}
+
+h1{
+    padding-left: 65px;
+    padding-bottom: 15px;
+
+}
+
+.label-enviar{
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 10px;
+    width: 120px;
+}
+
+#h1-resultado{
+    padding-left: 130px;
+    padding-bottom: 15px;
+}
+
+.label-resultado{
+    padding-top: 5px;
+    padding-left: 100px;
+}
+
+.label-almacenado{
+    margin-top: 20px;
+    margin-left: 180px;
+
+}

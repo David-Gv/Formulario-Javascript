@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>POST</title>
+</head>
+<body>
+    <main>
+        <section id="Enviar">
+            <h1>FORMULARIO</h1>
+            <label class="label-enviar" for="">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escriba su nombre">
+            <br>
+            <label class="label-enviar" for="">Trabajo:</label>
+            <input type="text" id="trabajo" placeholder="Escriba su empleo">
+            <br>
+            <button type="submit" id="guardar" class="btn btn-default">Guardar</button>
+        </section>
+
+        <aside id="Resultado">
+            <h1 id="h1-resultado">RESULTADO</h1>
+            <label class="label-resultado" for="">Id:</label>
+            <span id="resultadoid"></span>
+            <br>
+            <label class="label-resultado" for="">Nombre:</label>
+            <span id="resultadoNombre"></span>
+            <br>
+            <label class="label-resultado" for="">Trabajo:</label>
+            <span id="resultadoTrabajo"></span>
+            <br>
+            <label class="label-resultado" for="">Creado:</label>
+            <span id="resultadoCreado"></span>
+            <br>
+            <label class="label-almacenado" for=""></label>
+            <span id="resultadoAlmacenado"></span>
+        </aside>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  
+</body>
+</html>
